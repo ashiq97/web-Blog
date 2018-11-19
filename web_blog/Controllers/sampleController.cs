@@ -14,5 +14,11 @@ namespace web_blog.Controllers
             // hello
             return View();
         }
+
+        public int MyProperty { get; set; }
+        public int My { get; set; }
+        public int Myp { get; set; }
+
+
     }
 }
