@@ -11,8 +11,9 @@ namespace web_blog.Controllers
         // GET: test
         public ActionResult Index()
         {
-            //sak sdjsa djlsda dlj 
+            //THis is 3rd changes
             return View();
         }
+        public int anything { get; set; }
     }
 }
